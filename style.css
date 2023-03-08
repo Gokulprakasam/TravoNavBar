@@ -1,0 +1,117 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.headerblock
+{
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    display: flex;
+    justify-content: space-between;
+}
+.headerblock .pa
+/* descendet selector */
+{
+    /* border: 2px solid white; */
+    width: 250px;
+}
+.headerblock .iconheader
+{
+    /* border: 2px solid white; */
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.mainnav
+{
+    background-color: gray;
+    height: 65px;
+}
+.mainnav .subnav
+{
+    height: 65px;
+    width: 90%;
+    margin: 0 auto;
+    background-color:rgb(58, 58, 58);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subnav.logoblock
+{
+    height: 55px;
+    /* border: 2px solid white; */
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.subnav .navigator
+{
+    /* border: 2px solid yellow; */
+    height: 55px;
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.subnav .navigator a
+{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.subnav .navigator a:hover
+{
+    color: rgb(82, 196, 82);
+}
+.subnav .signup
+{
+    height: 55px;
+    /* border: 2px solid yellow; */
+    width: 15%;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+.subnav .signup:hover{
+    color:rgb(82, 196, 82) ;
+}
+
+.subnav .contact
+{
+    height: 55px;
+    /* border: 2px solid yellow; */
+    width: 15%;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drop
+{
+display: none;
+background-color: black;
+color: antiquewhite;
+width: auto;
+position: absolute;
+}
+.contact:hover>.drop
+{
+    display: block;
+    position: absolute;
+    top: 90px;
+}
+.contact:hover
+{
+    color:rgb(82, 196, 82) ;
+}
